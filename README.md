@@ -13,11 +13,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![Screenshot](https://github.com/luissilva629/Frontend-Mentor_Summary_Solution/blob/main/Screenshot_Project.png)
+![Screenshot-1](https://github.com/luissilva629/Frontend-Mentor_Interactive-rating-component/blob/main/Screenshot_1.png)
+![Screenshot-2](https://github.com/luissilva629/Frontend-Mentor_Interactive-rating-component/blob/main/Screenshot_2.png)
 
 ### Links
 
-- Live Site URL: [Solution Github Pages](https://luissilva629.github.io/Frontend-Mentor_Summary_Solution/)
+- Live Site URL: [Solution Github Pages](https://luissilva629.github.io/Frontend-Mentor_Interactive-rating-component/)
 
 ## Author
 
