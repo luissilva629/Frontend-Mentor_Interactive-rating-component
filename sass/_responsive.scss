@@ -1,0 +1,50 @@
+@media (max-width: 375px) {
+  .container {
+    max-width: 300px;
+    height: 390px;
+
+    .first-section {
+      .sec-content {
+        .title {
+          font-size: 24px;
+        }
+        .text {
+          font-size: 13px;
+          letter-spacing: -0.2px;
+        }
+      }
+
+      .sec-rate {
+        .rate {
+          li {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+      .sec-submit {
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .second-section {
+      .image {
+        img {
+          width: 60%;
+        }
+      }
+
+      .content {
+        .title {
+          font-size: 24px;
+          margin-top: -20px;
+        }
+        .text {
+          letter-spacing: -0.5px;
+        }
+      }
+    }
+  }
+}
