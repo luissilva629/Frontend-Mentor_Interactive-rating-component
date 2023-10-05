@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main>
+      <div class="container">
+        <div class="first-section">
+          <div class="sec-top">
+            <div class="circle">
+              <img src="./images/icon-star.svg" alt="Star" />
+            </div>
+          </div>
+          <div class="sec-content">
+            <div class="title">How did we do?</div>
+            <div class="text">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </div>
+          </div>
+          <div class="sec-rate">
+            <ul class="rate">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li class="selected">4</li>
+              <li>5</li>
+            </ul>
+          </div>
+          <div class="sec-submit">
+            <a href="#">Submit</a>
+          </div>
+        </div>
+
+        <div class="second-section d-none">
+          <div class="image">
+            <img src="./images/illustration-thank-you.svg" alt="Thank you!" />
+          </div>
+          <div class="rate-selected">
+            <p>You selected <span>4</span> out of 5</p>
+          </div>
+          <div class="content">
+            <div class="title">Thank you!</div>
+            <div class="text">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don't hesitate to get in touch!
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
